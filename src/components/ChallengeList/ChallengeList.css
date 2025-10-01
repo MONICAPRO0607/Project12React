@@ -1,7 +1,19 @@
 .challenge-list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+    align-items: center;
+  text-align: center;
+  min-height: 150px;
   gap: 20px; 
-  padding: 20px;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .challenge-list {
+    flex-direction: column;
+    padding: 10px;
+    min-height: 120px;
+  }
 }
