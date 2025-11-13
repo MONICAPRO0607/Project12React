@@ -2,10 +2,12 @@
   background: white;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 320px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  max-width: 90%;
+  margin: 20px auto;
   text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,19 +36,21 @@
 
 .challenge-actions {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .challenge-actions button {
-  flex: 1;
-  padding: 10px;
-  border-radius: 8px;
+  min-width: 90px;
+  padding: 8px 12px;
+  border-radius: 10px;
   border: none;
-  cursor: pointer;
+  color: white;
   font-weight: bold;
-  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .challenge-actions button:hover {
